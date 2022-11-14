@@ -1,0 +1,35 @@
+.main{
+    padding: 20px;
+    border: 1px ridge #000000;
+    margin: 30px auto;
+    max-width: 700px;
+}
+.first-section-heading{
+    font-size: 18px;
+}
+.first-section{
+    display: flex;
+    justify-content: center;
+}
+.first-section>p{
+    color: green;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0px;
+}
+.second-section-heading{
+    font-size: 18px;
+}
+.second-section>p{
+    color: red;
+    font-size: 14px;
+    margin: 0px;
+}
+.third-section-heading{
+    font-size: 18px;
+}
+.third-section > ul, p{
+    color: blue;
+    margin: 5px 0px;
+    list-style-type: circle;
+}
